@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /wordpress/wp-admin/admin-ajax.php
+Disallow: /wordpress/wp-admin/
+
+Sitemap: http://localhost/wordpress/sitemap.xml
+Sitemap: http://localhost/wordpress/sitemap.rss
+
+
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: http://localhost/wordpress/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK
