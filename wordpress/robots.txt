@@ -11,6 +11,10 @@ Sitemap: http://localhost/wordpress/sitemap.rss
 User-agent: *
 Disallow:
 
+User-agent: Googlebot
+User-agent: AdsBot-Google
+Disallow: /
+
 Sitemap: http://localhost/wordpress/sitemap_index.xml
 # ---------------------------
 # END YOAST BLOCK
