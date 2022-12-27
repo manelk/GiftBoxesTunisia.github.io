@@ -1,20 +1,12 @@
 User-agent: *
-Allow: /wordpress/wp-admin/admin-ajax.php
 Disallow: /wordpress/wp-admin/
-
-Sitemap: http://localhost/wordpress/sitemap.xml
-Sitemap: http://localhost/wordpress/sitemap.rss
-
+Allow: /wordpress/wp-admin/admin-ajax.php
 
 # START YOAST BLOCK
 # ---------------------------
 User-agent: *
 Disallow:
 
-User-agent: Googlebot
-User-agent: AdsBot-Google
-Disallow: /
-
-Sitemap: http://localhost/wordpress/sitemap_index.xml
+Sitemap: https://manelk.github.io/GiftBoxesTunisia.github.io/sitemap_index.xml
 # ---------------------------
 # END YOAST BLOCK
